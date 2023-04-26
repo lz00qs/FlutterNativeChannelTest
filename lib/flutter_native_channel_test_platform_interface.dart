@@ -26,4 +26,16 @@ abstract class FlutterNativeChannelTestPlatform extends PlatformInterface {
   Future<String?> getPlatformVersion() {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
+
+  Future<String?> getMethodTestResult() {
+    throw UnimplementedError('getMethodTestResult() has not been implemented.');
+  }
+
+  Future<void> startNativeSendEvent() {
+    throw UnimplementedError('startNativeSendEvent() has not been implemented.');
+  }
+
+  Future<void> stopNativeSendEvent() {
+    throw UnimplementedError('stopNativeSendEvent() has not been implemented.');
+  }
 }
